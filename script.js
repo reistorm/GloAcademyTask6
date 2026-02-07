@@ -4,8 +4,6 @@ let number;
 
 const game = function (number) {
     const givenNumber = Math.floor(Math.random() * 100) + 1;
-    console.log(givenNumber);
-    //do {
     const asking = function () {
         const number = prompt('Введите число от 1 до 100');
         if (number === null) {
